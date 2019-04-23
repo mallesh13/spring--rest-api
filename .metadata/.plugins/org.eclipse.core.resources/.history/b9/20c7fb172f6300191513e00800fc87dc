@@ -1,0 +1,8 @@
+package com.capgemini.personsql.service;
+
+import com.capgemini.personsql.entity.Person;
+
+public interface PersonService {
+	
+	void addPerson(Person person);
+}

@@ -1,0 +1,5 @@
+package com.capgemini.personsql.controller;
+
+public class PersonController {
+
+}

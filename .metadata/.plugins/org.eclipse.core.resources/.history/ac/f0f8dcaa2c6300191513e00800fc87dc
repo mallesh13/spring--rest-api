@@ -1,0 +1,5 @@
+package com.capgemini.personsql.service;
+
+public interface PersonService {
+
+}

@@ -1,0 +1,5 @@
+package com.capgemini.personsql.dao;
+
+public interface PersonDao {
+
+}

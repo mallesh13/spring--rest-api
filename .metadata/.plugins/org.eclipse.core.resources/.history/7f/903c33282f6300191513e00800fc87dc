@@ -1,0 +1,20 @@
+package com.capgemini.personsql.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.personsql.dao.PersonDao;
+import com.capgemini.personsql.entity.Person;
+
+@Service
+public class PersonServiceImpl implements PersonService {
+
+	@Autowired
+	private PersonDao dao;
+	@Override
+	public void addPerson(Person person) {
+	
+		dao.save(person);
+	}
+
+}
